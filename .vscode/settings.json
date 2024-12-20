@@ -1,0 +1,12 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    },
+    "files.associations": {
+        "*.bats": "shellscript",
+        "*.bin": "plaintext",
+        "*.ekl": "cpp",
+        "*.CATRule*": "cpp",
+        "chrono": "cpp"
+    }
+}
