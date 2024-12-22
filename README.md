@@ -1,6 +1,6 @@
 # Tetris with SFML
 
-Minimalistic implementation of pong with SFML. This project is using cmake and vcpkg.
+Minimalistic implementation of Tetris with SFML. This project is using cmake and vcpkg.
 
 ## Setup
 
