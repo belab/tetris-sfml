@@ -13,7 +13,7 @@ struct Point {
 };
 
 struct Tetromino {
-	Tetromino(int shapeNr) {
+	explicit Tetromino(int shapeNr) {
 		const int figures[7][4] = {
 			1, 3, 5, 7, // I     0 1
 			2, 4, 5, 7, // Z     2 3
@@ -83,7 +83,7 @@ struct Tetromino {
 int main() {
 	srand(124);
 
-	RenderWindow window(VideoMode(360, 360), "The Game!", Style::Titlebar | Style::Close);
+	RenderWindow window(VideoMode(360, 360), "TETRIS-sfml", Style::Titlebar | Style::Close);
 
 	sf::Font font;
 	font.loadFromFile("lcd.14.otf");
